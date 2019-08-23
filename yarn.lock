@@ -2099,6 +2099,14 @@ builtin-status-codes@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
 
+bulma@0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.7.1.tgz#73c2e3b2930c90cc272029cbd19918b493fca486"
+
+bulma@^0.7.5:
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.7.5.tgz#35066c37f82c088b68f94450be758fc00a967208"
+
 bytes@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.0.0.tgz#d32815404d689699f85a4ea4fa8755dd13a96048"
@@ -2295,6 +2303,10 @@ class-utils@^0.3.5:
     define-property "^0.2.5"
     isobject "^3.0.0"
     static-extend "^0.1.1"
+
+classnames@2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
 
 clean-css@4.2.x:
   version "4.2.1"
@@ -7476,6 +7488,13 @@ react-app-polyfill@^1.0.2:
 react-awesome-button@^6.1.2:
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/react-awesome-button/-/react-awesome-button-6.1.2.tgz#72402cf5e4180fa90c88fe7c1dd8970e771e412f"
+
+react-bulma-components@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/react-bulma-components/-/react-bulma-components-2.3.0.tgz#a25fd8f57b5748b0969673dfbfd2cd9186287522"
+  dependencies:
+    bulma "0.7.1"
+    classnames "2.2.6"
 
 react-dev-utils@^9.0.3:
   version "9.0.3"

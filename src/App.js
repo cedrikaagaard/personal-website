@@ -3,13 +3,19 @@ import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import './button.css';
 import {Icon} from 'react-fa'
+//import './App.sass'
+import { Button } from 'react-bulma-components/full'
 
-
-
-
-
-///
 function App() {
+  return (
+      <div className='App'>
+
+      </div>
+  )
+}
+
+
+/*function App() {
   return (
     <div className="App">
         {Button()}
@@ -28,6 +34,6 @@ function Button() {
 </AwesomeButton>
 
   );
-}
+}*/
 
 export default App;

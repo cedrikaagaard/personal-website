@@ -84,7 +84,7 @@ const heading = () => {
             </Zoom>
             <Heading subtitle style={{color: '#5cdb95'}}>
                 <Zoom delay={250}>
-                Feel free to contact me for any reason.
+                Feel free to contact me.
                 </Zoom>
             </Heading>
         </Heading>

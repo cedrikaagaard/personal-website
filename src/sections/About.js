@@ -61,10 +61,9 @@ const luRow = () => (
         <Columns.Column>
             <Heading subtitle style={{fontSize: 20}}>
                 <Zoom>
-                    I'm currently in the master of science in engineering
-                    in computer science program at the faculty of
-                    engineering at Lund University. I'm expected to finish
-                    by 2022.
+                    I'm currently pursuing a master's degree in CSE at the
+                    faculty of engineering at Lund University, which I am
+                    expecting to finish by 2022.
                 </Zoom>
             </Heading>
         </Columns.Column>
@@ -79,8 +78,8 @@ const personalRow = () => (
         <Columns.Column>
             <Heading subtitle style={{fontSize: 20}}>
                 <Zoom>
-                    I'm 20 years old and currently living in Lund,
-                    originally from a small village in småland.
+                    I'm 20 years old and currently living in Lund.
+                    I'm originally from a small village in småland.
                 </Zoom>
             </Heading>
         </Columns.Column>

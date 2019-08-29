@@ -58,8 +58,8 @@ const highSchool = () => (
         </h4>
 
         <p>
-            High school student.
-            Technology program, information and media technology.
+            High school. The technology program with
+            information and media technology orientation.
         </p>
     </VerticalTimelineElement>
 )
@@ -72,7 +72,7 @@ const fortnox = () => (
         icon={<FaAndroid/>}
     >
         <h3 className="vertical-timeline-element-title">
-            Internship
+            Intern
         </h3>
 
         <h4 className="vertical-timeline-element-subtitle">
@@ -94,11 +94,11 @@ const sm = () => (
         icon={<FaRegFlag/>}
     >
         <h3 className="vertical-timeline-element-title">
-            Final, Swedish programming high school olympiad
+            Finalist
         </h3>
 
         <h4 className="vertical-timeline-element-subtitle">
-            Stockholm
+            Swedish programming high school olympiad, Stockholm
         </h4>
 
         <p>
@@ -116,7 +116,7 @@ const eterix = () => (
         icon={<FaIndustry/>}
     >
         <h3 className="vertical-timeline-element-title">
-            Summer employment
+            Summer employee
         </h3>
 
         <h4 className="vertical-timeline-element-subtitle">
@@ -139,7 +139,7 @@ const lu = () => (
         icon={<FaUniversity/>}
     >
         <h3 className="vertical-timeline-element-title">
-            University
+            University student
         </h3>
 
         <h4 className="vertical-timeline-element-subtitle">
@@ -147,7 +147,8 @@ const lu = () => (
         </h4>
 
         <p>
-            Master of science in engineering in computer science program.
+            Master's of science in engineering
+            in computer science program (CSE).
         </p>
     </VerticalTimelineElement>
 )
@@ -181,7 +182,7 @@ const q2d = () => (
         icon={<FaFileCode/>}
     >
         <h3 className="vertical-timeline-element-title">
-            Full stack
+            Full stack developer
         </h3>
 
         <h4 className="vertical-timeline-element-subtitle">
@@ -203,7 +204,7 @@ const finnmedicin = () => (
         icon={<FaLaptopCode/>}
     >
         <h3 className="vertical-timeline-element-title">
-            Full stack
+            Full stack developer
         </h3>
 
         <h4 className="vertical-timeline-element-subtitle">

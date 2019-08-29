@@ -90,18 +90,14 @@ const rightColumn = () => (
     <Columns.Column>
         <Container>
             <Heading>
-                <Zoom delay={600}>
-                Built using C++
-                </Zoom>
                 <Heading subtitle>
-                    <Zoom delay={700}>
-                    This project was built using C++ and
-                    the thistlethwaite implementation is available
-                    on Github.
+                    <Zoom delay={600}>
+                    This project was built using C++ and my implementation of
+                        Thistlethwaite's algorithm is available on Github.
                     </Zoom>
                 </Heading>
             </Heading>
-            <Zoom delay={800}>
+            <Zoom delay={700}>
             <AwesomeButton
                 type="primary"
                 href='https://github.com/cedrikaagaard/thistlethwaite'

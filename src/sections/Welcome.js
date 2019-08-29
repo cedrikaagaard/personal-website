@@ -7,10 +7,11 @@ import {AwesomeButton} from "react-awesome-button";
 import {Icon} from "react-fa";
 
 const headingText = 'Hello, World | Cedrik Aagaard'
+
 const subHeadingText =
-    "Welcome to my website. On here you'll find " +
-    "information about my skills, experience, " +
-    "contact and some projects of mine."
+    "Welcome to my website. Here you'll find information " +
+    "about my skills, experience, contact and some projects of mine."
+
 
 const Welcome = () => (
     <Section style={{backgroundColor:'#5cdb95', boxShadow: '0px 5px 5px'}}>
@@ -69,7 +70,7 @@ const container = () => {
                         >
                             <Icon name="github" />
                             <span style={{paddingLeft: 10}}>
-                                This website on Github
+                                {'this.source() $'}
                             </span>
                         </AwesomeButton>
                     </Zoom>

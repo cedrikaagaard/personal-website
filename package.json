@@ -1,8 +1,8 @@
 {
-  "name": "cedrik-website",
+  "name": "cedrikaagaard.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://cedrikaagaard.github.io/personal-website",
+  "homepage": "http://cedrikaagaard.github.io",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.21",
     "@fortawesome/free-solid-svg-icons": "^5.10.1",

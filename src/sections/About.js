@@ -5,7 +5,6 @@ import {
 } from 'react-bulma-components/full'
 
 import Zoom from 'react-reveal/Zoom'
-import Bounce from 'react-reveal/Bounce'
 
 const About = () => {
     const sectionStyle = {

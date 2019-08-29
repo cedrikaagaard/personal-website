@@ -1,6 +1,5 @@
 import React from 'react'
 
-import NavBar from './NavBar'
 import Welcome from './sections/Welcome'
 import About from './sections/About'
 import Skills from './sections/Skills'
@@ -15,7 +14,6 @@ import './button.css'
 
 const App = () => (
     <div className='App'>
-        <NavBar/>
         <Welcome/>
         <About/>
         <Skills/>

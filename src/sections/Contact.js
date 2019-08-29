@@ -4,11 +4,7 @@ import {
     Columns, Container, Heading, Section
 } from 'react-bulma-components/full'
 
-import {
-    FaUniversity, FaSchool, FaPhone, FaMailBulk,
-    FaGithub, FaAndroid, FaIndustry, FaRegFlag, FaCode,
-    FaFileCode, FaLaptopCode
-} from 'react-icons/fa'
+import { FaPhone, FaMailBulk, FaGithub } from 'react-icons/fa'
 
 import Zoom from 'react-reveal/Zoom'
 

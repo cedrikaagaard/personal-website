@@ -6,12 +6,8 @@ import {
 
 import { Icon } from 'react-fa'
 import { AwesomeButton } from 'react-awesome-button'
-
-import Zoom from 'react-reveal/Zoom';
-import Fade from 'react-reveal/Zoom';
-import Bounce from 'react-reveal/Bounce';
-
-
+import Zoom from 'react-reveal/Zoom'
+import Fade from 'react-reveal/Zoom'
 
 const CubeRobot = () => {
     const sectionStyle = {
@@ -28,7 +24,7 @@ const CubeRobot = () => {
 
     return (
         <Section style={sectionStyle}>
-            <Container style={{}}>
+            <Container style={containerStyle}>
                 {heading()}
                 {columns()}
             </Container>

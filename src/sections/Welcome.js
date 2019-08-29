@@ -6,7 +6,6 @@ import Zoom from 'react-reveal/Zoom'
 import {AwesomeButton} from "react-awesome-button";
 import {Icon} from "react-fa";
 
-const headingText = 'Hello, World | Cedrik Aagaard'
 
 const subHeadingText =
     "Welcome to my website. Here you'll find information " +
@@ -22,11 +21,9 @@ const Welcome = () => (
 
 const container = () => {
     const containerStyle = {
-        marginTop: 0,
+        marginTop: 100,
         marginBottom: 140,
         textAlign: 'center',
-        padding: 25, paddingTop: 50, paddingBottom: 50,
-        //backgroundColor: 'rgba(47, 47, 47, 0.75)'
     }
 
     const headingStyle = {
@@ -85,8 +82,8 @@ const particles = () => {
 
     const style = {
         backgroundColor: '#5cdb95',
-        marginBottom: -(height - 125),
-        marginTop: -50,
+        marginBottom: -(height - 50),
+        //marginTop: -50,
     }
 
     const params = {

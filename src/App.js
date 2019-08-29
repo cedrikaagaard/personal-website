@@ -7,13 +7,14 @@ import Resume from './sections/Resume'
 import Contact from './sections/Contact'
 import CubeRobot from './sections/CubeRobot'
 
-import './App.sass'
 import 'react-vertical-timeline-component/style.min.css'
 import 'react-awesome-button/dist/styles.css'
+import './App.sass'
 import './button.css'
 
+
 const App = () => (
-    <div className='App'>
+    <div className='App' style={{backgroundColor: '2f2f2f'}}>
         <Welcome/>
         <About/>
         <Skills/>

@@ -3,6 +3,7 @@ import {
     VerticalTimelineElement
 } from 'react-vertical-timeline-component/dist-es6'
 
+
 import { Heading, Section } from 'react-bulma-components/full'
 import React from 'react'
 

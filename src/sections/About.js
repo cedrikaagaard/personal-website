@@ -1,10 +1,15 @@
 import React from 'react'
 
 import {
-    Columns, Container, Heading, Image, Section
+    Columns, Container, Heading, Image, Section, Card, Media, Content,
 } from 'react-bulma-components/full'
 
 import Zoom from 'react-reveal/Zoom'
+import LottieComponent from "../LottieComponent";
+
+import programmingAnimation from '../8306-programming-animation.json'
+import mangoAnimation from '../10415-data-mango.json'
+
 
 const About = () => {
     const sectionStyle = {
@@ -22,9 +27,22 @@ const About = () => {
             <Container style={containerStyle}>
 
                 {heading()}
-                {luRow()}
-                {personalRow()}
-                {programmingRow()}
+
+                <Columns style={{marginTop: 100}}>
+                    <Columns.Column>
+                        {personalCard()}
+                    </Columns.Column>
+
+                    <Columns.Column>
+                        {universityCard()}
+                    </Columns.Column>
+
+                    <Columns.Column>
+                        {programmingCard()}
+                    </Columns.Column>
+
+                </Columns>
+
 
             </Container>
         </Section>
@@ -94,7 +112,6 @@ const programmingSrc =
 const programmingRow = () => (
     <Columns style={{marginTop: 100}}>
         <Columns.Column>
-            {imageDiv(programmingSrc)}
         </Columns.Column>
         <Columns.Column>
             <Heading subtitle style={{fontSize: 20}}>
@@ -108,6 +125,65 @@ const programmingRow = () => (
             </Heading>
         </Columns.Column>
     </Columns>
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const programmingCard = () => (
+    <Card style={{borderRadius: 10}}>
+        <Card.Content>
+            <Media>
+                <LottieComponent animation={programmingAnimation}/>
+            </Media>
+            <Content>
+                I've been programming for about 4 years now.
+                I'm the most comfortable with back-end/middle-end
+                development. I have experience within different parts
+                of the development, such as website, server, mobile
+                and arduino.
+            </Content>
+        </Card.Content>
+    </Card>
+)
+
+const personalCard = () => (
+    <Card style={{borderRadius: 10}}>
+        <Card.Content>
+            <Media>
+                <Image src={personalSrc}/>
+            </Media>
+            <Content>
+                I'm 20 years old and currently living in Lund.
+                I'm originally from a small village in småland.
+            </Content>
+        </Card.Content>
+    </Card>
+)
+
+const universityCard = () => (
+    <Card style={{borderRadius: 10}}>
+        <Card.Content>
+            <Media>
+                <LottieComponent animation={mangoAnimation}/>
+            </Media>
+            <Content>
+                I'm currently pursuing a master's degree in CSE at the
+                faculty of engineering at Lund University, which I am
+                expecting to finish by 2022.
+            </Content>
+        </Card.Content>
+    </Card>
 )
 
 export default About

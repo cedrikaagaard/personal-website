@@ -13,7 +13,7 @@ const subHeadingText =
 
 
 const Welcome = () => (
-    <Section style={{backgroundColor:'#5cdb95', boxShadow: '0px 5px 5px'}}>
+    <Section style={{backgroundColor:'#046865', boxShadow: '0px 5px 5px'}}>
         {particles()}
         {container()}
     </Section>
@@ -54,7 +54,7 @@ const container = () => {
                     </Level.Item>
                 </Level>
 
-                <Heading subtitle style={{color: '#05386b'}}>
+                <Heading subtitle style={{color: '#A499B3'}}>
                     <Zoom delay={250}>
                     {subHeadingText}
                     </Zoom>
@@ -81,7 +81,7 @@ const particles = () => {
     const height = 500
 
     const style = {
-        backgroundColor: '#5cdb95',
+        backgroundColor: '#046865',
         marginBottom: -(height - 50),
         //marginTop: -50,
     }
@@ -92,7 +92,7 @@ const particles = () => {
             size: { value: 3 },
 
             "color": {
-                "value": "#05386b"
+                "value": "#A499B3"
             },
         },
 

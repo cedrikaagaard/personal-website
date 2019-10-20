@@ -6,20 +6,19 @@ import {
 
 import { Icon } from 'react-fa'
 import { AwesomeButton } from 'react-awesome-button'
-import Zoom from 'react-reveal/Zoom'
 import Fade from 'react-reveal/Zoom'
 
 const CubeRobot = () => {
     const sectionStyle = {
-        boxShadow: '10px 10px 5px',
-        marginTop: 50,
-        paddingBottom: 100,
-        textAlign: 'center'
+        textAlign: 'center',
+        color: '#9FB9A7',
+        backgroundColor: '#2d2d2d',
+        paddingTop: 100
     }
 
     const containerStyle = {
-        marginBottom: 100,
-        textAlign: 'center'
+        textAlign: 'center',
+        marginBottom: 100
     }
 
     return (
@@ -37,21 +36,18 @@ const heading = () => {
         marginBottom: 50,
         fontFamily: 'Fira Code',
         fontSize: 30,
+        color: 'white'
     }
 
     return (
         <Heading style={style}>
-            <Zoom cascade top>
             Cube robot
-            </Zoom>
 
-            <Heading subtitle style={{marginTop: 50}}>
-                <Fade delay={250}>
+            <Heading subtitle style={{marginTop: 50, color: '#00ff00'}}>
                 As a high school graduation project (Gymnasiearbete),
                 I made a Rubik's cube solving robot using stepper motors
                 and an Arduino. The robot uses Thistlethwaite's algorithm
                 which I implemented in C++.
-                </Fade>
             </Heading>
         </Heading>
     )
@@ -70,14 +66,12 @@ const leftColumn = () => {
 
     return (
         <Columns.Column>
-            <Zoom delay={500}>
             <iframe
                 src={iframeSource}
                 title='Cube robot'
                 width='265'
                 height='480'
             />
-            </Zoom>
         </Columns.Column>
     )
 }
@@ -86,14 +80,11 @@ const rightColumn = () => (
     <Columns.Column>
         <Container>
             <Heading>
-                <Heading subtitle>
-                    <Zoom delay={600}>
+                <Heading subtitle style={{color: '#00ff00'}}>
                     This project was built using C++ and my implementation of
                         Thistlethwaite's algorithm is available on Github.
-                    </Zoom>
                 </Heading>
             </Heading>
-            <Zoom delay={700}>
             <AwesomeButton
                 type="primary"
                 href='https://github.com/cedrikaagaard/thistlethwaite'
@@ -101,7 +92,6 @@ const rightColumn = () => (
                 <Icon  name="github" />
                 <span style={{paddingLeft: 10}}>ThistleThwaite</span>
             </AwesomeButton>
-            </Zoom>
         </Container>
     </Columns.Column>
 )

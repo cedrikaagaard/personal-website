@@ -3,6 +3,7 @@ import Particles from 'react-particles-js'
 import { Container, Heading, Section, Level } from 'react-bulma-components/full'
 
 import Zoom from 'react-reveal/Zoom'
+import Fade from 'react-reveal/Fade'
 import {AwesomeButton} from "react-awesome-button";
 import {Icon} from "react-fa";
 
@@ -13,7 +14,7 @@ const subHeadingText =
 
 
 const Welcome = () => (
-    <Section style={{backgroundColor:'#046865', boxShadow: '0px 5px 5px'}}>
+    <Section style={{backgroundColor:'#0d0d0d'}}>
         {particles()}
         {container()}
     </Section>
@@ -48,18 +49,18 @@ const container = () => {
                         </Zoom>
                     </Level.Item>
                     <Level.Item style={{textAlign: 'left'}}>
-                        <Zoom cascade top delay={500} style={{textAlign: 'left'}}>
+                        <Fade bottom delay={500} style={{textAlign: 'left'}}>
                         Cedrik Aagaard
-                        </Zoom>
+                        </Fade>
                     </Level.Item>
                 </Level>
 
-                <Heading subtitle style={{color: '#A499B3'}}>
+                <Heading subtitle style={{color: 'white'}}>
                     <Zoom delay={250}>
                     {subHeadingText}
                     </Zoom>
 
-                    <Zoom delay={1000}>
+                    <Fade bottom delay={1000}>
                         <AwesomeButton
                             type="primary"
                             href='https://github.com/cedrikaagaard/personal-website'
@@ -70,7 +71,7 @@ const container = () => {
                                 {'this.source() $'}
                             </span>
                         </AwesomeButton>
-                    </Zoom>
+                    </Fade>
                 </Heading>
             </Heading>
         </Container>
@@ -81,7 +82,7 @@ const particles = () => {
     const height = 500
 
     const style = {
-        backgroundColor: '#046865',
+        backgroundColor: '#0d0d0d',
         marginBottom: -(height - 50),
         //marginTop: -50,
     }
@@ -92,7 +93,7 @@ const particles = () => {
             size: { value: 3 },
 
             "color": {
-                "value": "#A499B3"
+                "value": "#00ff00"
             },
         },
 

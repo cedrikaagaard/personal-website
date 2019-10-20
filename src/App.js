@@ -6,6 +6,7 @@ import Skills from './sections/Skills'
 import Resume from './sections/Resume'
 import Contact from './sections/Contact'
 import CubeRobot from './sections/CubeRobot'
+import Bottom from './sections/Bottom'
 
 import 'react-vertical-timeline-component/style.min.css'
 import 'react-awesome-button/dist/styles.css'
@@ -21,6 +22,7 @@ const App = () => (
         <Resume/>
         <Contact/>
         <CubeRobot/>
+        <Bottom/>
     </div>
 )
 

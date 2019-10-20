@@ -12,12 +12,15 @@ import {
 import { FaPhone, FaMailBulk, FaGithub } from 'react-icons/fa'
 
 import Zoom from 'react-reveal/Zoom'
+
+import Fade from 'react-reveal/Fade'
+
+
 import LottieComponent from "../LottieComponent";
 
 const Contact = () => {
     const sectionStyle = {
-        boxShadow: '10px 10px 5px',
-        backgroundColor: '#F03A47',
+        backgroundColor: '#0d0d0d',
         paddingTop: 100
     }
 
@@ -35,21 +38,21 @@ const columns = () => (
     <Columns style={{marginTop: 50}}>
 
         <Columns.Column style={{color: 'white'}}>
-            <Zoom delay={500}>
+            <Fade bottom delay={500}>
             <Heading style={{color: 'white'}}>
                 <LottieComponent animation={githubAnimation} height={80}/>
             </Heading>
 
             <Heading subtitle style={{color: 'white', marginTop: 20}}>
-                <a href="github.com/cedrikaagaard" style={{color: 'white'}}>
+                <a href="https://github.com/cedrikaagaard" style={{color: 'white'}}>
                 github.com/cedrikaagaard
                 </a>
             </Heading>
-            </Zoom>
+            </Fade>
         </Columns.Column>
 
         <Columns.Column>
-            <Zoom delay={750}>
+            <Fade bottom delay={750}>
             <Heading style={{color: 'white'}}>
                 <LottieComponent animation={phoneAnimation} height={100}/>
             </Heading>
@@ -57,11 +60,11 @@ const columns = () => (
             <Heading subtitle style={{color: 'white'}}>
                 +46 72 052 1582
             </Heading>
-            </Zoom>
+            </Fade>
         </Columns.Column>
 
         <Columns.Column>
-            <Zoom delay={1000}>
+            <Fade bottom delay={1000}>
             <Heading style={{color: 'white'}}>
                 <LottieComponent animation={messageAnimation} height={100}/>
             </Heading>
@@ -69,7 +72,7 @@ const columns = () => (
             <Heading subtitle style={{color: 'white'}}>
                 cedrikaagaard@gmail.com
             </Heading>
-            </Zoom>
+            </Fade>
         </Columns.Column>
     </Columns>
 )
@@ -84,13 +87,13 @@ const heading = () => {
 
     return (
         <Heading style={headingStyle}>
-            <Zoom>
+            <Fade bottom>
             Contact
-            </Zoom>
+            </Fade>
             <Heading subtitle style={{color: 'white'}}>
-                <Zoom delay={250}>
+                <Fade bottom delay={250}>
                 Feel free to contact me.
-                </Zoom>
+                </Fade>
             </Heading>
         </Heading>
     )

@@ -8,6 +8,7 @@ import { Heading, Section } from 'react-bulma-components/full'
 import React from 'react'
 
 import Zoom from 'react-reveal/Zoom'
+import Fade from 'react-reveal/Fade'
 
 import {
     FaUniversity, FaSchool, FaAndroid, FaIndustry,
@@ -22,11 +23,11 @@ const Resume = () => {
     }
 
     return (
-        <Section style={{boxShadow: '5px 5px 5px', marginTop: 50}}>
+        <Section style={{boxShadow: '5px 5px 5px', marginTop: 50, backgroundColor: '#f2f2f2'}}>
             <Heading style={headingStyle}>
-                <Zoom cascade top>
+                <Fade bottom>
                 Resume
-                </Zoom>
+                </Fade>
             </Heading>
 
             <VerticalTimeline>
@@ -47,7 +48,7 @@ const highSchool = () => (
     <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2014 - 2017"
-        iconStyle={{ background: '#5cdb95', color: '#fff' }}
+        iconStyle={{ background: '#2d2d2d', color: '#fff' }}
         icon={<FaSchool/>}
     >
         <h3 className="vertical-timeline-element-title">
@@ -69,7 +70,7 @@ const fortnox = () => (
     <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2016"
-        iconStyle={{ background: '#05386b', color: '#fff' }}
+        iconStyle={{ background: '#2d2d2d', color: '#fff' }}
         icon={<FaAndroid/>}
     >
         <h3 className="vertical-timeline-element-title">
@@ -91,7 +92,7 @@ const sm = () => (
     <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2016"
-        iconStyle={{ background: '#5cdb95', color: '#fff' }}
+        iconStyle={{ background: '#2d2d2d', color: '#fff' }}
         icon={<FaRegFlag/>}
     >
         <h3 className="vertical-timeline-element-title">
@@ -113,7 +114,7 @@ const eterix = () => (
     <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2017"
-        iconStyle={{ background: '#05386b', color: '#fff' }}
+        iconStyle={{ background: '#2d2d2d', color: '#fff' }}
         icon={<FaIndustry/>}
     >
         <h3 className="vertical-timeline-element-title">
@@ -136,7 +137,7 @@ const lu = () => (
     <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2017 - present"
-        iconStyle={{ background: '#5cdb95', color: '#fff' }}
+        iconStyle={{ background: '#2d2d2d', color: '#fff' }}
         icon={<FaUniversity/>}
     >
         <h3 className="vertical-timeline-element-title">
@@ -158,7 +159,7 @@ const skillfully = () => (
     <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2018 - present"
-        iconStyle={{ background: '#05386b', color: '#fff' }}
+        iconStyle={{ background: '#2d2d2d', color: '#fff' }}
         icon={<FaCode/>}
     >
         <h3 className="vertical-timeline-element-title">
@@ -179,7 +180,7 @@ const q2d = () => (
     <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2018"
-        iconStyle={{ background: '#5cdb95', color: '#fff' }}
+        iconStyle={{ background: '#2d2d2d', color: '#fff' }}
         icon={<FaFileCode/>}
     >
         <h3 className="vertical-timeline-element-title">
@@ -201,7 +202,7 @@ const finnmedicin = () => (
     <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2019"
-        iconStyle={{ background: '#05386b', color: '#fff' }}
+        iconStyle={{ background: '#2d2d2d', color: '#fff' }}
         icon={<FaLaptopCode/>}
     >
         <h3 className="vertical-timeline-element-title">

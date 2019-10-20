@@ -7,11 +7,11 @@
     --button-hover-pressure: 1;
     --transform-speed: 0.185s;
 
-    --button-primary-color: #05386b;
-    --button-primary-color-dark: #021a31;
-    --button-primary-color-light: #d4d9e4;
-    --button-primary-color-hover: #053361;
-    --button-primary-color-active: #032649;
+    --button-primary-color: #404040;
+    --button-primary-color-dark: #333333;
+    --button-primary-color-light: #ffffff;
+    --button-primary-color-hover: #4d4d4d;
+    --button-primary-color-active: #4d4d4d;
 
     --button-primary-border: none;
     --button-secondary-color: #fffc6c;

@@ -5,6 +5,7 @@ import {
 } from 'react-bulma-components/full'
 
 import Zoom from 'react-reveal/Zoom'
+import Fade from 'react-reveal/Fade'
 import LottieComponent from "../LottieComponent";
 
 import programmingAnimation from '../8306-programming-animation.json'
@@ -13,9 +14,9 @@ import mangoAnimation from '../10415-data-mango.json'
 
 const About = () => {
     const sectionStyle = {
-        marginTop: 50,
+        paddingTop: 100,
         paddingBottom: 100,
-        boxShadow: '10px 10px 5px white',
+        backgroundColor: '#2d2d2d'
     }
 
     const containerStyle = {
@@ -28,7 +29,7 @@ const About = () => {
 
                 {heading()}
 
-                <Columns style={{marginTop: 100}}>
+                <Columns style={{marginTop: 50}}>
                     <Columns.Column>
                         {personalCard()}
                     </Columns.Column>
@@ -52,14 +53,15 @@ const About = () => {
 const heading = () => {
     const headingStyle = {
         fontFamily: 'Fira Code',
-        fontSize: 30
+        fontSize: 30,
+        color: 'white'
     }
 
     return (
         <Heading style={headingStyle}>
-            <Zoom>
+            <Fade bottom>
                 About me
-            </Zoom>
+            </Fade>
         </Heading>
     )
 }

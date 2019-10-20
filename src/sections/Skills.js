@@ -6,12 +6,13 @@ import {
 
 import Zoom from 'react-reveal/Zoom'
 
+import Fade from 'react-reveal/Fade'
+
 const Skills = () => {
     const sectionStyle = {
-        backgroundColor: '#2f2f2f',
+        backgroundColor: '#0d0d0d',
         paddingTop: 100,
         paddingBottom: isSmallScreen() ? 125 : 200,
-        boxShadow: '5px 5px 5px'
     }
 
     return (
@@ -36,25 +37,25 @@ const heading = () => {
 
     return (
         <Heading style={headingStyle}>
-            <Zoom>Skills</Zoom>
-            <Heading subtitle>
+            <Fade bottom>Skills</Fade>
+            <Heading subtitle style={{color: '#00ff00'}}>
 
                 <br/>
 
-                <Zoom delay={0}>
+                <Fade bottom delay={0}>
                     I have professional experience with languages and
                     frameworks such as JavaScript, TypeScript,
                     NodeJS, ExpressJS, ReactJS, AngularJS, SQL, PHP,
                     Laravel and PassportJS.
-                </Zoom>
+                </Fade>
 
                 <br/>
                 <br/>
 
-                <Zoom delay={250}>
+                <Fade bottom delay={250}>
                     And non-professional experience with, for example,
                     C++, Java, Scala, Python, OpenCV and Android.
-                </Zoom>
+                </Fade>
 
             </Heading>
         </Heading>
